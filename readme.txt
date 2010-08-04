@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: holocoustine, mrkay2911
+Contributors: holocoustine, mrkay
 Tags: waktu berbuka, ramadhan, malaysia, buka puasa,puasa, breaking fast malaysia
 Requires at least: 3.0
 Tested up to: 3.0.1
