@@ -3,7 +3,7 @@ Contributors: holocoustine, mrkay2911
 Tags: waktu berbuka, ramadhan, malaysia, buka puasa,puasa, breaking fast malaysia
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 To display time for breaking fast in Malaysia for Ramadhan 2010.
 
@@ -30,10 +30,10 @@ Nope.. currently it is only available for malaysian time only... :D:D
 
 == Changelog ==
 
-= 1.0 =
-* No changes were made currently
+= 1.0.1 =
+* Fix css and UI issues.
 
 == Upgrade Notice ==
 
-= 1.0 =
-No current updates yet.
+= 1.0.1 =
+Fixed css and UI issues based on user's responds.
