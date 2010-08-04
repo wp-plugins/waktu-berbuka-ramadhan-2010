@@ -12,9 +12,14 @@ include_once('waktu-berbuka-data.php');
 
 register_activation_hook(__FILE__,'waktu_berbuka_install');
 add_action( 'widgets_init', 'waktu_berbuka_load_widgets' );
+add_action( 'wp_head', 'includeCSS' );
 
 function waktu_berbuka_load_widgets() {
 	register_widget( 'Waktu_Berbuka' );
+}
+
+function includeCSS(){
+	echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('url','raw') . '/wp-content/plugins/waktu-berbuka-ramadhan-2010/css/style.css" />' . "\n";
 }
 
 class Waktu_Berbuka extends WP_Widget {
@@ -26,7 +31,7 @@ class Waktu_Berbuka extends WP_Widget {
 
 		$this->WP_Widget( 'waktu-berbuka-widget', __('Waktu Berbuka', 'waktu-berbuka'), $widget_ops, $control_ops );
 	}
-
+		
 	function widget( $args, $instance ) {
 		extract( $args );
 		global $wpdb;
@@ -49,8 +54,7 @@ class Waktu_Berbuka extends WP_Widget {
 		if ( isset($fasting_location) ){
 			if ($fasting_time):
 				foreach ($fasting_time as $time):
-						echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/waktu-berbuka/css/style.css" />' . "\n";
-						echo '<table id="pattern-style-b"><tbody><tr><td align="center">';
+						echo '<table id="ramadhan-waktu-berbuka-pattern-style-b"><tbody><tr><td align="center">';
 						echo $time->nama_kawasan;
 						echo '</td></tr><tr><td>';
 						echo $time->hari.'  <span>( '.$time->tarikh.' )</span>';
