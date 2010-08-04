@@ -3,7 +3,7 @@
  * Plugin Name: Waktu Berbuka (Ramadhan)
  * Plugin URI: http://labs.kay.my/wordpress
  * Description: A widget that displays time for breaking fast during Ramadhan 2010.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Munira Anuar & Khairul Yusof (@mrkay2911)
  * Author URI: http://mrs.kay.my
  **/
