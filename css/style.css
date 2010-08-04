@@ -1,9 +1,4 @@
-.table1	{
-color: white;
-background-image: url('../images/mosque.jpg')
-}
-
-#pattern-style-b {
+#ramadhan-waktu-berbuka-pattern-style-b {
 background:url("../images/1334.png") repeat scroll 0 0 transparent;
 border-collapse:collapse;
 font-family:"Lucida Sans Unicode","Lucida Grande",Sans-Serif;
@@ -13,19 +8,19 @@ text-align:left;
 width:100%;
 }
 
-#pattern-style-b {
+#ramadhan-waktu-berbuka-pattern-style-b {
 border-collapse:collapse;
 font-family:"Lucida Sans Unicode","Lucida Grande",Sans-Serif;
 font-size:12px;
 text-align:left;
 }
 
-#pattern-style-b thead tr {
+#ramadhan-waktu-berbuka-pattern-style-b thead tr {
 background:url("../images/1334.png") repeat scroll 0 0 transparent;
 color:#fff;
 }
 
-#pattern-style-b td {
+#ramadhan-waktu-berbuka-pattern-style-b td {
 border-bottom:1px solid #FFFFFF;
 border-top:1px solid transparent;
 color:#666699;
