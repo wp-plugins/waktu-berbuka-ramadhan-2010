@@ -40,3 +40,6 @@ Nope.. currently it is only available for malaysian time only... :D:D
 
 = 1.0.1 =
 Fixed css and UI issues based on user's responds.
+
+= 2.0 =
+* Update database for 2011 data.
