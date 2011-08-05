@@ -1,15 +1,15 @@
 === Plugin Name ===
 Contributors: holocoustine, mrkay
 Tags: waktu berbuka, ramadhan, malaysia, buka puasa,puasa, breaking fast malaysia
-Requires at least: 3.0
-Tested up to: 3.0.1
-Stable tag: 1.0.1
+Requires at least: 3.2
+Tested up to: 3.2
+Stable tag: 2.0
 
-To display time for breaking fast in Malaysia for Ramadhan 2010.
+To display time for breaking fast in Malaysia for Ramadhan 2011.
 
 == Description ==
 
-Waktu berbuka displays the date and time of breaking fast for the month of Ramadhan of 2010. If you found any bug, please report to us at http://labs.kay.my/wordpress/waktu-berbuka/
+Waktu berbuka displays the date and time of breaking fast for the month of Ramadhan of 2011. If you found any bug, please report to us at http://labs.kay.my/wordpress/waktu-berbuka/
 
 == Installation ==
 
@@ -32,6 +32,9 @@ Nope.. currently it is only available for malaysian time only... :D:D
 
 = 1.0.1 =
 * Fix css and UI issues.
+
+= 2.0 =
+* Update database for 2011 data.
 
 == Upgrade Notice ==
 

@@ -14,6 +14,8 @@ register_activation_hook(__FILE__,'waktu_berbuka_install');
 add_action( 'widgets_init', 'waktu_berbuka_load_widgets' );
 add_action( 'wp_head', 'includeCSS' );
 
+register_deactivation_hook(__FILE__, 'waktu_berbuka_uninstall');
+
 function waktu_berbuka_load_widgets() {
 	register_widget( 'Waktu_Berbuka' );
 }
